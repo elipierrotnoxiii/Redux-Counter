@@ -11,9 +11,9 @@ const Counter = () => {
     <section>
       <p>{count}</p>
       <div>
-        <button onClick={() => dispatch(increment)}>+</button>
+        <button onClick={() => dispatch(increment())}>+</button>
 
-        <button onClick={() => dispatch(decrement)}>-</button>
+        <button onClick={() => dispatch(decrement())}>-</button>
       </div>
     </section>
   );
